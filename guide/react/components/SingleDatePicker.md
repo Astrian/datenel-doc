@@ -153,7 +153,7 @@ If you are familiar with JavaScript’s native Date object, you may know that it
 
 ## Trigger Props
 
-### `onClose`
+### `onClose() => void`
 A screen-reader-exclusive property. The user is required to close the panel without selecting a specific date. 
 
 The close button is not visible, but screen readers can read this button. The screen reader’s close button is only available when this prop is not `undefined`.
@@ -170,7 +170,7 @@ This callback function does not require any return value.
 <SingleDatePicker onClose={() => setPresentPanel(false)} />
 ```
 
-### `onSelect`
+### `onSelect(date) => void`
 A callback function that will be called when a date is selected inside the panel.
 
 #### Function parameters

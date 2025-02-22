@@ -26,6 +26,7 @@ export default defineConfig({
           { text: "Getting start", link: "/guide/react/gettingstart" },
           { text: "Components", items: [
             { text: "SingleDatePicker", link: "/guide/react/components/singledatepicker" },
+            { text: "SingleWeekPicker", link: "/guide/react/components/singleweekpicker" },
           ]}
         ]
       },
