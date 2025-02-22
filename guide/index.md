@@ -1,0 +1,8 @@
+# Overview
+Datenel (“Date + Panel”) is a lightweight and adaptive UI components library for date selection. Its goal is to create a universal component-based solution for date selection panels that fits every environment, including different front-end frameworks, data processing libraries, designing, and even the limitations of the target audience, with an ultra-lightweight size.
+
+Here is how we keep the goal in mind during the development of Datenel:
+
+- **Zero runtime dependencies**: We continue to import zero external dependencies to achieve an incredibly lean size. Datenel processes the date and time using JavaScript’s native Date object and returns the intuitively structured JSON, so you can process the user selection with your current time handling libraries without worry.
+- **Accessibility optimization**: Datenel prioritizes accessibility by integrating aria-related HTML tags throughout the component. We enhance the experience for users with special needs by incorporating rich-context screen reader text that announces the date and relevant details. Additionally, our components support keyboard navigation, allowing users to select dates easily and navigate the date panel confidently, ensuring an inclusive experience for all.
+- **Rich configurations and preferences options**: You can access or adjust almost every detail of Datenel, including being triggered when a user selects a date or adjusting the panel’s colour scheme. With the full JSDoc support, you can just type and see the prompts from your favourite IDE directly to make your development process smoother.
