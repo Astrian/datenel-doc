@@ -27,7 +27,7 @@ The accent color of the panel, including the background color of the selected da
 ### `availableRange`
 Limit the range of dates that can be selected. It should be an array of two dates, the first one being the available range start date and the second one being the available range end date. 
 
-If the first one is null, it means that all dates after the second one are not available. If the second one is null, it means that all dates before the first one are not available. 
+If the first one is `null`, it means that all dates after the second one are not available. If the second one is `null`, it means that all dates before the first one are not available. 
 
 If the first one is behind the second one, Datenel will exchange them automatically.
 
