@@ -6,7 +6,7 @@ hero:
   name: "Datenel"
   text: "让用户挑个日子，挑了又挑"
   tagline: 简单、轻量且易于使用的日期选择器
-  image: /assets/hero_img.png
+  image: /hero_img.png
   actions:
     - theme: brand
       text: 在 React 中使用

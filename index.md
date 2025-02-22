@@ -6,7 +6,7 @@ hero:
   name: "Datenel"
   text: "Make date selection great (again?)"
   tagline: Simple, lightweight and easy-to-use date picker
-  image: ./assets/hero_img.png
+  image: /hero_img.png
   actions:
     - theme: brand
       text: Use in React
