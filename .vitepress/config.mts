@@ -25,8 +25,8 @@ export default defineConfig({
         items: [
           { text: "Getting start", link: "/guide/react/gettingstart" },
           { text: "Components", items: [
-            { text: "SingleDatePicker", link: "/guide/react/components/singledatepicker" },
-            { text: "SingleWeekPicker", link: "/guide/react/components/singleweekpicker" },
+            { text: "SingleDatePicker", link: "/guide/react/components/SingleDatePicker" },
+            { text: "SingleWeekPicker", link: "/guide/react/components/SingleWeekPicker" },
           ]}
         ]
       },
@@ -66,8 +66,8 @@ export default defineConfig({
             items: [
               { text: "快速上手", link: "/zh-cn/guide/react/gettingstart" },
               { text: "组件", items: [
-                { text: "SingleDatePicker", link: "/zh-cn/guide/react/components/singledatepicker" },
-                { text: "SingleWeekPicker", link: "/zh-cn/guide/react/components/singleweekpicker" },
+                { text: "SingleDatePicker", link: "/zh-cn/guide/react/components/SingleDatePicker" },
+                { text: "SingleWeekPicker", link: "/zh-cn/guide/react/components/SingleWeekPicker" },
               ]}
             ]
           },
