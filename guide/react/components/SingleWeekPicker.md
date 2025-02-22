@@ -1,7 +1,7 @@
 # SingleWeekPicker
 
 ## Overview
-Datenel also provides a SingleWeekPicker component for selecting a specific week of the year. Compared to SingleDatePicker, SingleWeekPicker keeps the same layout and includes specific optimization for week selection.
+Datenel also provides a SingleWeekPicker component for selecting a specific week of the year (starts from Monday). Compared to SingleDatePicker, SingleWeekPicker keeps the same layout and includes specific optimization for week selection.
 
 <div style="border: 1px #00000022 solid; overflow: hidden; border-radius: 0.5rem;">
 	<iframe src="https://stackblitz.com/edit/datenel-react-singleweekpicker?embed=1&file=src%2FApp.tsx&hideExplorer=1&hideNavigation=1&view=preview" width="100%" height="500px" style="border: none;" />

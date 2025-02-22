@@ -34,5 +34,44 @@ export default defineConfig({
         text: "For Vue.js 3 (Soon™️)",
       }
     ]
+  },
+  locales: {
+    root: {
+      lang: "en-US",
+      label: "English",
+    },
+    "zh-cn": {
+      lang: "zh-CN",
+      label: "简体中文",
+      themeConfig: {
+        nav: [
+          { text: '首页', link: '/zh-cn' },
+          { text: '指南', link: '/zh-cn/guide/index.html' },
+          { text: 'npm 包', items: [
+            { text: "React 版", link: "https://www.npmjs.com/package/datenel-react" },
+            { text: "Vue.js 3 版 (Soon™️)", link: "#" }
+          ] }
+        ],
+        sidebar: [
+          {
+            text: "概述",
+            link: "/zh-cn/guide/index.html"
+          },
+          {
+            text: "React 版",
+            items: [
+              { text: "快速上手", link: "/zh-cn/guide/react/gettingstart" },
+              { text: "组件", items: [
+                { text: "SingleDatePicker", link: "/zh-cn/guide/react/components/singledatepicker" },
+                { text: "SingleWeekPicker", link: "/zh-cn/guide/react/components/singleweekpicker" },
+              ]}
+            ]
+          },
+          {
+            text: "Vue.js 3 版 (Soon™️)",
+          }
+        ]
+      }
+    },
   }
 })
