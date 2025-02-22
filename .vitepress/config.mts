@@ -33,7 +33,11 @@ export default defineConfig({
       {
         text: "For Vue.js 3 (Soon™️)",
       }
-    ]
+    ],
+
+    outline: {
+      level: [2, 3]
+    }
   },
   locales: {
     root: {
