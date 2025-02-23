@@ -32,6 +32,12 @@ export default defineConfig({
       },
       {
         text: "For Vue.js 3 (Soon™️)",
+      },
+      {
+        text: "DLC",
+        items: [
+          { text: "Colour Schemes & Themes", link: "/guide/external/design" },
+        ]
       }
     ],
 
@@ -73,6 +79,12 @@ export default defineConfig({
           },
           {
             text: "Vue.js 3 版 (Soon™️)",
+          },
+          {
+            text: "额外内容",
+            items: [
+              { text: "配色方案与主题", link: "/zh-cn/guide/external/design" },
+            ]
           }
         ]
       }
