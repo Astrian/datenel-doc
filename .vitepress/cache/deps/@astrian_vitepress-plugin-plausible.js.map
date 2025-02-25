@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../../node_modules/@astrian/vitepress-plugin-plausible/dist/index.mjs"],
+  "sourcesContent": ["const mountPlausibleAnalytics = (domain, api) => {\n  if (document.querySelector(`script[data-domain=\"${domain}\"]`)) {\n    return;\n  }\n  const plausibleScript = document.createElement(\"script\");\n  plausibleScript.defer = true;\n  plausibleScript.dataset.domain = domain;\n  plausibleScript.dataset.api = api;\n  plausibleScript.src = \"https://plausible.io/js/script.js\";\n  document.head.appendChild(plausibleScript);\n};\nconst index = ({ domain, api }) => {\n  if (process.env.NODE_ENV === \"production\" && domain && api && typeof window !== \"undefined\") {\n    mountPlausibleAnalytics(domain, api);\n  }\n};\n\nexport { index as default };\n"],
+  "mappings": ";AAWA,IAAM,QAAQ,CAAC,EAAE,QAAQ,IAAI,MAAM;AACjC,MAAI,OAAyF;AAC3F,4BAAwB,QAAQ,GAAG;AAAA,EACrC;AACF;",
+  "names": []
+}

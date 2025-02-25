@@ -11,8 +11,9 @@ hero:
     - theme: brand
       text: Use in React
       link: /guide/react/gettingstart
-    - theme: alt
-      text: Use in Vue.js 3 (soon™️)
+    - theme: brand
+      text: Use in Vue.js 3
+      link: /guide/vue3/gettingstart
 
 features:
   - icon: 🪶

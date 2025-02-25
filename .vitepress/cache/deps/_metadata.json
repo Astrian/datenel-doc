@@ -1,25 +1,31 @@
 {
-  "hash": "ec33a47a",
-  "configHash": "60346221",
+  "hash": "2f9cc9ac",
+  "configHash": "6f604422",
   "lockfileHash": "ba7c6388",
-  "browserHash": "591f67d4",
+  "browserHash": "616ae780",
   "optimized": {
     "vue": {
       "src": "../../../node_modules/vue/dist/vue.runtime.esm-bundler.js",
       "file": "vue.js",
-      "fileHash": "937f12a8",
+      "fileHash": "c013f65e",
       "needsInterop": false
     },
     "vitepress > @vue/devtools-api": {
       "src": "../../../node_modules/@vue/devtools-api/dist/index.js",
       "file": "vitepress___@vue_devtools-api.js",
-      "fileHash": "cdeee535",
+      "fileHash": "99876a8a",
       "needsInterop": false
     },
     "vitepress > @vueuse/core": {
       "src": "../../../node_modules/@vueuse/core/index.mjs",
       "file": "vitepress___@vueuse_core.js",
-      "fileHash": "1364623d",
+      "fileHash": "11e42e9a",
+      "needsInterop": false
+    },
+    "@astrian/vitepress-plugin-plausible": {
+      "src": "../../../node_modules/@astrian/vitepress-plugin-plausible/dist/index.mjs",
+      "file": "@astrian_vitepress-plugin-plausible.js",
+      "fileHash": "37c1a6b2",
       "needsInterop": false
     }
   },

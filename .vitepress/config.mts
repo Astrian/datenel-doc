@@ -11,7 +11,7 @@ export default defineConfig({
       { text: 'Guide', link: '/guide/index.html' },
       { text: 'npm Packages', items: [
         { text: "For React", link: "https://www.npmjs.com/package/datenel-react" },
-        { text: "For Vue.js 3 (Soon™️)", link: "#" }
+        { text: "For Vue.js 3", link: "https://www.npmjs.com/package/datenel-vue3" }
       ] }
     ],
 
@@ -31,7 +31,14 @@ export default defineConfig({
         ]
       },
       {
-        text: "For Vue.js 3 (Soon™️)",
+        text: "For Vue.js 3",
+        items: [
+          { text: "Getting start", link: "/guide/vue3/gettingstart" },
+          { text: "Components", items: [
+            { text: "SingleDatePicker", link: "/guide/vue3/components/SingleDatePicker" },
+            { text: "SingleWeekPicker", link: "/guide/vue3/components/SingleWeekPicker" },
+          ]}
+        ]
       },
       {
         text: "DLC",
