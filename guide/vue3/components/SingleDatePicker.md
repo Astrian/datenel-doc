@@ -46,7 +46,10 @@ Customize the color scheme of the component. The object should contain the follo
 - `hoverColor`: The hover color of the panel, including the hover background color of the date.
 - `reversedColor`: The reversed color of the panel, including the text color of the selected date.
 
+----
+
 - Type: `{ mainColor: String, accentColor: String, borderColor: String, hoverColor: String, reversedColor: String }`
+  - Supports any string value describes color and accepted by CSS.
 - Default: `{ mainColor: '#000000', accentColor: '#000000', borderColor: '#e0e0e0', hoverColor: '#00000017', reversedColor: '#ffffff' }`
 
 #### Example

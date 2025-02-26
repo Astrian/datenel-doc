@@ -66,7 +66,7 @@ export default defineConfig({
           { text: '指南', link: '/zh-cn/guide/index.html' },
           { text: 'npm 包', items: [
             { text: "React 版", link: "https://www.npmjs.com/package/datenel-react" },
-            { text: "Vue.js 3 版 (Soon™️)", link: "#" }
+            { text: "Vue.js 3 版", link: "https://www.npmjs.com/package/datenel-vue3" }
           ] }
         ],
         sidebar: [
@@ -85,7 +85,14 @@ export default defineConfig({
             ]
           },
           {
-            text: "Vue.js 3 版 (Soon™️)",
+            text: "Vue.js 3 版",
+            items: [
+              { text: "快速上手", link: "/zh-cn/guide/vue3/gettingstart" },
+              { text: "组件", items: [
+                { text: "SingleDatePicker", link: "/zh-cn/guide/vue3/components/SingleDatePicker" },
+                { text: "SingleWeekPicker", link: "/zh-cn/guide/vue3/components/SingleWeekPicker" },
+              ]}
+            ]
           },
           {
             text: "额外内容",
