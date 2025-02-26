@@ -66,7 +66,7 @@
 ```
 
 #### 额外
-如果需要一个所见即所得的配色方案设计器，敬请移步 [配色方案与主题](http://localhost:5173/guide/external/design.html#theme-workshop)。
+如果需要一个所见即所得的配色方案设计器，敬请移步 [配色方案与主题](/guide/external/design.html#theme-workshop)。
 
 ### `localization`
 通过这个属性，Datenel 可以接受标准的 [ISO 639 语言代码](https://en.wikipedia.org/wiki/List_of_ISO_639_language_codes)（例如 `zh-CN`、`en-US`、`ja-JP` 等）来输出经本地化过的面板。

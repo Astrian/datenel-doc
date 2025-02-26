@@ -67,7 +67,7 @@ Customize the color scheme of the component. The object should contain the follo
 ```
 
 #### Extra
-If you want a WYSIWYG GUI color scheme designer, please refer to [Colour Schemes & Themes](http://localhost:5173/guide/external/design.html#theme-workshop)
+If you want a WYSIWYG GUI color scheme designer, please refer to [Colour Schemes & Themes](/guide/external/design.html#theme-workshop)
 
 ### `localization`
 Datenel will use the language code to localize the panel and accept standard [ISO 639 language codes](https://en.wikipedia.org/wiki/List_of_ISO_639_language_codes), such as `zh-CN`, `en-US`, `ja-JP`, etc. 
