@@ -11,8 +11,9 @@ hero:
     - theme: brand
       text: 在 React 中使用
       link: /zh-cn/guide/react/gettingstart
-    - theme: alt
-      text: 在 Vue.js 3 中使用（即将推出™️）
+    - theme: brand
+      text: 在 Vue 3 中使用
+      link: /zh-cn/guide/vue3/gettingstart
 
 features:
   - icon: 🪶
